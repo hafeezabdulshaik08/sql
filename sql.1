@@ -14,5 +14,10 @@ insert into branch values('IT', 2008, 180);
 insert into branch values('ECE', 2009, 120);
 insert into branch values('EEE', 2010, 60);
 
-select *from info;
+select *from student;
 select *from branch;
+
+
+select *from student,branch where student.bname=bname.bname and yoe=2008;
+select *from student,branch where student.bname=bname.bname and yoe=2009;
+
