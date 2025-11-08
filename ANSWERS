@@ -1,0 +1,23 @@
+OUT PUT;-
+--Sample Table:
+StudentID| StudentName| Age| Department
+    1    |     Rahul  | 20 |Computer Science
+    2    |     Priya  | 22 |Electronics
+    3    |    Amit    | 21 |Mechanical
+    4    |    Neha    | 23 |Computer Science
+    5    |    Karan   | 22 |Civil
+
+--Search Operation (Without Indexing):
+StudentID| StudentName| Age| Department
+    1    |     Rahul  | 20 |Computer Science
+    4    |    Neha    | 23 |Computer Science
+
+
+--Search Operation (With Indexing)
+StudentID| StudentName| Age| Department
+    1    |     Rahul  | 20 |Computer Science
+    4    |    Neha    | 23 |Computer Science
+
+
+
+
