@@ -15,6 +15,9 @@ VALUES
 (4, 'Neha', 23, 'Computer Science'),
 (5, 'Karan', 22, 'Civil');
 
+--to print table
+SELECT * FROM Students
+    
 -- Non-indexed search
 SELECT * FROM Students
 WHERE Department = 'Computer Science';
